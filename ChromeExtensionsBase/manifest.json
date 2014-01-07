@@ -1,0 +1,25 @@
+﻿{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "e128.png",
+         "38": "e128.png"
+      },
+      "default_popup": "sources/main.html",
+      "default_title": "ChromeExtensionsBase"
+   },
+   "options_page": "options.html",
+   "content_security_policy": "script-src 'self'; object-src",
+   "description": "基本パッケージ. sources/main.htmlをポップアップで表示します.",
+   "icons": {
+      "128": "e128.png",
+      "48": "e128.png",
+      "16": "e128.png"
+   },
+   "manifest_version": 2,
+   "name": "ChromeExtensionsBase",
+   "permissions": ["tabs"],
+   "version": "0.0.1"
+}
